@@ -179,8 +179,8 @@ console.log(comparison === protocol.consts.GT); // true
 
 Vector clocks are essential for handling data versioning in a distributed system.
 However, they can also grow in an unbounded way if the number of actors who can
-update the version grows in an unbounded way. If there are 100 actors, the
-clock will consist of 100 counters behind the scenes.
+update the version grows in an unbounded way. If there are 100 actors that
+updated the clock, then the clock will consist of 100 counters behind the scenes.
 
 In practice, what is often used instead is a variation known as an annealed
 vector clock, that limits the number of actors to a maximum. If a vector clock
