@@ -2,7 +2,7 @@
   "author": "Brian Noguchi <brian.noguchi@gmail.com>",
   "name": "lineage",
   "description": "Data versioning done right",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/codeparty/lineage",
   "repository": {
     "url": "git://github.com/codeparty/lineage.git"
