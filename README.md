@@ -83,8 +83,8 @@ also known as a [Lamport Clock](http://en.wikipedia.org/wiki/Lamport_timestamps)
 Lineage provides vector clocks out of the box.
 
 We will get into why vector clocks are critical when you want to version data
-in a distributed system, but for a more complete treatment on the subject, this
-README points the reader to the [canonical paper on Lamport
+in a distributed system, but for a more complete treatment on the subject,
+please refer to [the canonical paper on Lamport
 clocks](http://research.microsoft.com/en-us/um/people/lamport/pubs/time-clocks.pdf).
 
 What a vector clock does behind the scenes is more straightforward. Vector
