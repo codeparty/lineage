@@ -177,7 +177,7 @@ console.log(comparison === protocol.consts.GT); // true
 
 ## Annealing Vector Clocks
 
-Vector clocks are essential to handle data versioning in a distributed system.
+Vector clocks are essential for handling data versioning in a distributed system.
 However, they can also grow in an unbounded way if the number of actors who can
 update the version grows in an unbounded way. If there are 100 actors, the
 clock will consist of 100 counters behind the scenes.
