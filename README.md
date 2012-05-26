@@ -7,9 +7,7 @@ A data versioning library.
 
 Lineage is a JavaScript library for managing versions of data, especially
 helpful when reasoning about state in distributed systems. It provides several
-data types that can act as versions and also provide
-
-Lineage:
+data types that can act as versions. Overall, lineage offers:
 
 - Defines a [protocol](https://github.com/codeparty/protocoljs) for
   incrementing, comparing, and merging versions.
